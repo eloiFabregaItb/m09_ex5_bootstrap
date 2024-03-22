@@ -1,0 +1,84 @@
+/* -------------- COLORS --------------- */
+
+:root {
+  --pink: #EAD6FF;
+  --red: #EB1000;
+  --blue-sky: #54C4FE;
+  --orange: #FF9C09;
+  --purple: #9B00C1;
+  --purple-dark: #5B00C6;
+  --fucsia: #EB00A9;
+  --pink-pastel: #E33A77;
+
+}
+
+.bg-pink{
+  background-color: var(--pink);
+}
+.bg-red{
+  background-color: var(--red);
+}
+.bg-blue-sky{
+  background-color: var(--blue-sky);
+}
+.bg-orange{
+  background-color: var(--orange);
+}
+.bg-purple{
+  background-color: var(--purple);
+}
+.bg-purple-dark{
+  background-color: var(--purple-dark);
+}
+.bg-fucsia{
+  background-color: var(--fucsia);
+}
+.bg-pink-pastel{
+  background-color: var(--pink-pastel);
+}
+
+.bg-gradient-purple{
+  background: linear-gradient(112.51deg, var(--red) 0%, var(--purple) 50%, var(--purple-dark) 100%);
+}
+.bg-gradient-pink{
+  background: linear-gradient(180deg, var(--orange) 0%, var(--pink-pastel) 100%);
+}
+
+
+/* ----------------- GLOVAL ---------------- */
+.logo-small,
+.logo{
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  color: black;
+  font-size: 128px;
+}
+
+.logo-small{
+  font-size: 28px;
+}
+
+.logo-small b,
+.logo b{
+  color: #FFE500;
+}
+
+
+
+/* ---------------- PAGES ------------ */
+.home__hero__section{
+  max-height: 700px;
+}
+.home__hero__img {
+  width: 100%;
+  height: 100%;
+}
+.home__articles__article{
+  height:300px;
+  padding: 1rem;
+}
+
+.home__articles__content{
+  border-radius: 10px;
+  height: 100%;
+}
