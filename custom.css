@@ -9,6 +9,7 @@
   --purple-dark: #5B00C6;
   --fucsia: #EB00A9;
   --pink-pastel: #E33A77;
+  --light-green: #F0FFCF;
 
 }
 
@@ -42,6 +43,10 @@
 }
 .bg-gradient-pink{
   background: linear-gradient(180deg, var(--orange) 0%, var(--pink-pastel) 100%);
+}
+
+.bg-light-green{
+  background-color: var(--light-green);
 }
 
 
